@@ -69,5 +69,7 @@ Removes derived data and cached artifacts.
 - **Resources (assets) are declared in `Project.swift`**, not inferred. Add new `.xcassets` to the `resources:` array of the relevant target.
 - **`BrandConfigurable` protocol defaults** handle fallbacks. Required properties (like `restaurantName`) have no default — the compiler will enforce them on every new brand.
 
-<img width="300" alt="simulator_screenshot_C7FCC4E8-252B-43D0-9A48-8CC7CCCD6812" src="https://github.com/user-attachments/assets/b4e74e9f-0aff-4cb3-ab7f-174734af6e45" />
-<img width="300" alt="simulator_screenshot_144ED07B-FE7F-46A0-82A9-5A4832E2194D" src="https://github.com/user-attachments/assets/6b3b9a49-3e70-4309-9a93-9680a31d2928" />
+<img width="300" alt="simulator_screenshot_17F84A6A-7FC6-4A18-8CF5-B747C58B0DAD" src="https://github.com/user-attachments/assets/07e24d9f-a134-4e12-b0d8-54727a135675" />
+<img width="300" alt="simulator_screenshot_F7077918-A89C-4C6F-A9AD-073B2CD58506" src="https://github.com/user-attachments/assets/689aa50d-90ca-48a7-9b86-a6509d7590d8" />
+<img width="300" alt="simulator_screenshot_821B8D18-EF2F-4042-82AA-D2030B7D0506" src="https://github.com/user-attachments/assets/c245a1be-4e63-4acd-a024-4c2035c8d328" />
+
