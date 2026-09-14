@@ -1,4 +1,4 @@
-# RestMenu
+# whitelabel-tuist
 
 A multi-brand iOS restaurant menu app demonstrating white-label architecture using Tuist and Swift protocols.
 
