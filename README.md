@@ -18,10 +18,12 @@ Project.swift         # Tuist project definition
 Tuist.swift           # Tuist root marker
 ```
 
+Each `*BrandConfig.swift` file defines a `struct BrandConfig: BrandConfigurable` with the **same type name** but belongs exclusively to its target via Tuist's `sources:`. Only one `BrandConfig` is ever compiled per target — no compile-time flags needed.
+
 To add a new brand:
 1. Create a `NewBrand/` folder with `NewBrandApp.swift`
-2. Create `NewBrandConfig.swift` conforming to `BrandConfigurable`
-3. Add a `.target(...)` entry in `Project.swift`
+2. Create `NewBrandConfig.swift` at the root — define `struct BrandConfig: BrandConfigurable` with the brand's values
+3. Add a `.target(...)` entry in `Project.swift`, including `NewBrandConfig.swift` in `sources:` and **not** in any other target's sources
 4. Run `tuist generate`
 
 ## Requirements
