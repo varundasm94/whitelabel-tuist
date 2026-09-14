@@ -2,14 +2,6 @@
 
 A multi-brand iOS restaurant menu app demonstrating white-label architecture using Tuist and Swift protocols.
 
-## Brands
-
-| Target | Bundle ID |
-|---|---|
-| KFC | com.varun.KFC |
-| McDonalds | com.varun.McDonalds |
-| Dominos | com.varun.Dominos |
-
 ## Architecture
 
 Brand flavouring is done via a `BrandConfigurable` protocol. Each target compiles its own `BrandConfig` struct (same type name, different file) — no compile-time flags needed. Shared UI lives in `Shared/`, brand-specific entry points and configs are in their own folders.
