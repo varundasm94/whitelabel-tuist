@@ -6,6 +6,7 @@ protocol BrandConfigurable {
     static var heroGradient: [Color] { get }
     static var accentColor: Color { get }
     static var menu: [MenuSection] { get }
+    static var logoName: String { get }
 }
 
 extension BrandConfigurable {

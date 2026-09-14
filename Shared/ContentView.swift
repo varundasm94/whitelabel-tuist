@@ -23,9 +23,16 @@ struct ContentView: View {
                             .frame(height: 200)
 
                         VStack(alignment: .leading, spacing: 4) {
-                            Text(BrandConfig.restaurantName)
-                                .font(.largeTitle.bold())
-                                .foregroundStyle(.white)
+                            HStack(spacing: 12) {
+                                Image(BrandConfig.logoName)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 48, height: 48)
+                                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                                Text(BrandConfig.restaurantName)
+                                    .font(.largeTitle.bold())
+                                    .foregroundStyle(.white)
+                            }
                             Text(BrandConfig.subtitle)
                                 .font(.subheadline)
                                 .foregroundStyle(.white.opacity(0.85))

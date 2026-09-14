@@ -9,4 +9,5 @@ struct BrandConfig: BrandConfigurable {
     ]
     static let accentColor = Color.yellow
     static let menu = mcdonaldsMenu
+    static let logoName = "BrandLogo"
 }
