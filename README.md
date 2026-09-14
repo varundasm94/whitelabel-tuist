@@ -68,3 +68,6 @@ Removes derived data and cached artifacts.
 - **Brand config is in `*BrandConfig.swift` at the root.** One file per brand, each named `BrandConfig` internally so shared code needs no changes.
 - **Resources (assets) are declared in `Project.swift`**, not inferred. Add new `.xcassets` to the `resources:` array of the relevant target.
 - **`BrandConfigurable` protocol defaults** handle fallbacks. Required properties (like `restaurantName`) have no default — the compiler will enforce them on every new brand.
+
+- <img width="300" alt="simulator_screenshot_C7FCC4E8-252B-43D0-9A48-8CC7CCCD6812" src="https://github.com/user-attachments/assets/b4e74e9f-0aff-4cb3-ab7f-174734af6e45" />
+<img width="300" alt="simulator_screenshot_144ED07B-FE7F-46A0-82A9-5A4832E2194D" src="https://github.com/user-attachments/assets/6b3b9a49-3e70-4309-9a93-9680a31d2928" />
